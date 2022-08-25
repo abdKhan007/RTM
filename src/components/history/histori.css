@@ -1,0 +1,64 @@
+.histori {
+    position: relative;
+    top: 100px;
+    width: 100%;
+}
+
+.title-his {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+.title-hidt {
+    text-align: center;
+    font-family: 'SchoolBook';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    height: 70px;
+}
+
+.desc-his {
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    height: 150px;
+}
+
+.links-his {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 7px;
+}
+
+.links-his a {
+    color: var(--orange);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.links-his i {
+    color: var(--orange);
+}
+.carousel-his{
+    position: relative;
+    top: 170px;
+    text-align: center;   
+}
+
+/* swiper */
+.toper{
+    position: relative;
+    top: 30px;
+}
+.images-car{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}

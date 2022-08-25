@@ -1,0 +1,118 @@
+.services{
+    width: 100%;
+}
+.services_main{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+/* txt */
+.services_main_txt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services_main_txt_title{
+    color: var(--blc);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+}
+/* data map */
+.services_main_map{
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 70px;
+    column-gap: 12px;
+    justify-content: space-between;
+}
+.services_main_map_box{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    cursor: pointer;
+    background: var(--wht);
+}
+/* img */
+.services_main_map_box_img{
+    height: 200px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    padding: 10px;
+    transition: .5s;
+}
+.services_main_map_box_img_desc{
+    width: 300px;
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--blc);
+}
+/* txt */
+.services_main_map_box_txt_title{
+    color: var(--blc);
+    font-family: 'SchoolBook';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+}
+/* hover desigen */
+.services_main_map_box_img:hover{
+    transform: translateY(-7px);
+    box-shadow: var(--bxshdw);
+    border-radius: 6px;
+}
+.services_main_map_show{
+    display: none;
+}
+.services_main_btn{
+    display: none;
+}
+.services_main_btns{
+    display: none;
+}
+/* @media screen and 768px */
+@media screen and (max-width: 768px) {
+    .services_main_map{
+        display: none;
+    }
+    .services_main_map_show{
+        width: 100%;
+        margin-top: 70px;
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 70px;
+        column-gap: 12px;
+        justify-content: space-between;
+    }
+    .services_main_btns{
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 20px;
+    }
+    .services_main_btn_btn{
+        width: 120px;
+        height: 40px;
+        border: none;
+        outline: none;
+        color: var(--wht);
+        font-weight: 500;
+        cursor: pointer;
+        border-radius: 5px;
+        background: var(--lng);
+    }
+    .services_main_btn_btn:focus-within{
+        box-shadow: var(--bxshodw);
+    }
+}

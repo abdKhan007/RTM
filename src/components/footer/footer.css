@@ -1,0 +1,135 @@
+.footer{
+    background: var(--brw);
+}
+
+.footer-top{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-top-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.footer-top-logo-text{
+    color: var(--wht);
+}
+
+.footer-top-logo-text h1{
+    font-family: 'SchoolBook'; 
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.footer-top-logo-text p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.footer-links-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer-middle{
+
+    color: var(--wht);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.footer-middle-link , .footer-middle-link2 , .footer-middle-link3{
+    color: var(--wht);
+}
+
+.footer-middle-texts{
+    padding-top: 30px;
+    padding-left: 70px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-middle-media-links{
+    display: flex;
+}
+
+
+.footer-media-icons1,.footer-media-icons2, .footer-media-icons3 , .footer-media-icons4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    background: var(--wht);
+    color: var(--brw);
+    margin-right: 30px;
+    transition: .7s ;
+}
+
+.footer-media-icons1:hover,.footer-media-icons2:hover, .footer-media-icons3:hover , .footer-media-icons4:hover{
+    transform: rotate(360deg);
+}
+
+
+.main-route{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.gmail-link-style{
+    font-family: 'Futura New' sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    color: var(--wht);
+}
+
+.like{
+    padding-top: 70px;
+}
+
+.like img{
+    position: relative;
+    top: 5px;
+}
+
+
+@media(max-width: 768px){
+    .footer-top-right{
+        display: none;
+    }
+
+    .footer-top-left{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .footer-middle-texts{
+        flex-direction: column;
+    }
+
+    .footer-middle-text1 , .footer-middle-text2 , .footer-middle-text3 , .footer-middle-text4{
+        margin-top: 20px;
+    }
+    
+
+    .main-route{
+        padding-top: 40px;
+    }
+}

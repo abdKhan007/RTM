@@ -1,0 +1,117 @@
+/* HERO */
+.hero{
+    width: 100%;
+    padding-top: 100px;
+}
+.Swipppper{
+    width: 100%;
+    height: 700px !important;
+}
+.swiper-pagination-bullet{
+    width: 30px !important;
+    height: 30px !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    z-index: 10 !important;
+    background: var(--wht) !important;
+}
+.swiper-pagination-bullet-active {
+    color: var(--blc) !important;
+    border: 2px solid var(--blc) !important;
+}
+.swiper-pagination {
+    position: absolute !important;
+    top: 35% !important;
+    left: 0;
+}
+.my_swiper{
+    width: 100%;
+    height: 700px;
+    padding-left: 100px;
+    position: relative;
+}
+.my_swiper_div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.my_swiper_div_img{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+.my_swiper_div_img img{
+    width: 100%;
+    height: 100%;
+}
+.my_swiper_p{
+    width: 50%;
+    font-family: 'SchoolBook';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    margin-top: 60px;
+    color: var(--blc);
+}
+.my_swiper_link1{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background: var(--orange);
+    justify-content: center;
+    border-radius: 33.5px;
+    box-shadow: 0px 4px 20px var(--orange);
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: var(--wht);
+    z-index: 10000;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.my_swiper_links{
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    column-gap: 30px;
+}
+.my_swiper_link{
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    background: #c3b9b5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: var(--wht);
+    transition: .5s;
+}
+.my_swiper_link:hover{
+    transform: rotate(360deg);
+}
+.my_swiper_p1{
+    position: absolute;
+    right: 100px;
+    bottom: 40px;
+}
+@media screen and (max-width: 768px) {
+    .my_swiper_div{
+        flex-direction: column;
+    }
+    .my_swiper_p1{
+        bottom: 70px;
+        text-align: center;
+    }
+    .my_swiper_links{
+        left: 50px;
+        bottom: 0;
+    }
+}

@@ -1,0 +1,109 @@
+/* map */
+.map-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+.map{
+    padding-bottom: 150px;
+}
+.map-left{
+    margin-left: 150px;
+    position: relative;
+    top: 100px;
+}
+
+.map-left h2{
+    color: var(--brw);
+    margin-left: 15px;
+}
+
+.map-aybolit{
+    margin-top: 20px;
+    color: var(--brw);
+    position: relative;
+    left: 10px;
+    font-size: 28px;
+}
+
+/* map location */
+.map-location{
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+.map-location p{
+    margin-left: 10px;
+    color: var(--brw);
+}
+
+.IoLocationSharp{
+    color: var(--brow);
+    font-size: 40px;
+}
+
+/* map phone number */
+.map-telefon-numb{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    position: relative;
+    left: 10px;
+}
+
+.BsTelephoneFill{
+    font-size: 30px;
+    color: var(--brow);
+}
+
+.map-telefon-numb h4{
+    color: var(--brw);
+    margin-left: 15px;
+}
+
+/* map clock */
+.map-clock{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.AiOutlineClockCircle{
+    font-size: 30px;
+    color: var(--brow);
+    margin-left: 10px;
+}
+
+.map-clock p{
+    color: var(--brw);
+    margin-left: 10px;
+}
+
+/* map-left bottom */
+.ayobit-2{
+    margin-top: 30px;
+    color: var(--brw);
+    position: relative;
+    left: 10px;
+}
+
+
+/* map right */
+.map-right img{
+   width: 550px;
+   margin-top: 150px;
+   margin-right: 130px;
+}
+/* @media screen 768px  */
+@media screen and (max-width:768px) {
+    .map-main{
+        flex-direction: column;
+    }
+    .map-right img{
+        width: 400px;
+        position: relative;
+        left: 90px;
+    }
+}
